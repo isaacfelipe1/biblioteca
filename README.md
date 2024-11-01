@@ -1,8 +1,6 @@
 
 # Biblioteca Comunitária Maria Dolores
 
-![Logo da Biblioteca](assets/logo.png)
-
 ## Sobre a Biblioteca
 
 ![Foto da Biblioteca](assets/fotoReadme/readme1.png)
@@ -15,14 +13,8 @@ Biblioteca Comunitária, um ponto de cultura e humanização. Um espaço da prod
 
 ## Localização
 
-![Localização](assets/fotoReadme/readme2.png)
+![Localização](assets/fotoReadme/readme3.png)
 
 R. Padre Calebe, 3725 - Mamoud Amed, Itacoatiara, Amazonas - Brasil  
 CEP: 69100-000
 
-## Parceiros
-
-![Parceiro 1](assets/preview.png)
-![Parceiro 2](assets/proex_400.png)
-![Parceiro 3](assets/uea_logo_horizontal_verde.png)
-![Parceiro 4](assets/E-mail-PROEX-3-removebg-preview.png)
