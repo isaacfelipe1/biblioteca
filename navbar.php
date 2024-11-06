@@ -16,11 +16,11 @@
                 <img src="assets/logo.png" alt="Logo Biblioteca Maria Dolores" width="80">
             </a>
             <div class="menu">
-                <a href="/" class="menu-item">INÍCIO</a>
-                <a href="/nosso-time" class="menu-item">NOSSO TIME</a>
-                <a href="/como-comecou" class="menu-item">COMO TUDO COMEÇOU</a>
+                <a href="index.php" class="menu-item">INÍCIO</a>
+                <a href="team.php" class="menu-item">NOSSO TIME</a>
+                <a href="how_it_started.php" class="menu-item">COMO TUDO COMEÇOU</a>
                 <a href="/contato" class="menu-item">CONTATO</a>
-                <a href="/atividade" class="menu-item">ATIVIDADES</a>
+                <a href="activities.php" class="menu-item">ATIVIDADES</a>
             </div>
         </div>
         <div class="donate-button-container">
