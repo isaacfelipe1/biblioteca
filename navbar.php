@@ -19,22 +19,11 @@
                 <a href="index.php" class="menu-item">INÍCIO</a>
                 <a href="team.php" class="menu-item">NOSSO TIME</a>
                 <a href="how_it_started.php" class="menu-item">COMO TUDO COMEÇOU</a>
-                <a href="/contato" class="menu-item">CONTATO</a>
+                <a href="doacao.php" class="menu-item">DOE AGORA</a>
                 <a href="activities.php" class="menu-item">ATIVIDADES</a>
             </div>
         </div>
-        <div class="donate-button-container">
-            <button onclick="toggleModal()" class="donate-button">Doe Agora</button>
-        </div>
     </nav>
-
-    <div id="donationModal" style="display: none;">
-        <div class="modal-content">
-            <h3>Faça uma Doação</h3>
-            <p>Contribua com a Biblioteca Comunitária Maria Dolores.</p>
-            <button onclick="toggleModal()" class="menu-item">Fechar</button>
-        </div>
-    </div>
 
     <script>
     function toggleModal() {
