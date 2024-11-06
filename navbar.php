@@ -15,7 +15,10 @@
             <a href="#" class="logo">
                 <img src="assets/logo.png" alt="Logo Biblioteca Maria Dolores" width="80">
             </a>
-            <div class="menu">
+            <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu" id="menu">
                 <a href="index.php" class="menu-item">INÍCIO</a>
                 <a href="team.php" class="menu-item">NOSSO TIME</a>
                 <a href="how_it_started.php" class="menu-item">COMO TUDO COMEÇOU</a>
@@ -26,9 +29,9 @@
     </nav>
 
     <script>
-    function toggleModal() {
-        const modal = document.getElementById("donationModal");
-        modal.style.display = modal.style.display === "flex" ? "none" : "flex";
+    function toggleMobileMenu() {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('open');
     }
 
     window.addEventListener("scroll", () => {
