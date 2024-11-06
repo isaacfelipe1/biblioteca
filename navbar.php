@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar" id="navbar">
         <div class="container">
-            <a href="#" class="logo">
+            <a href="index.php" class="logo">
                 <img src="assets/logo.png" alt="Logo Biblioteca Maria Dolores" width="80">
             </a>
             <button class="mobile-menu-button" onclick="toggleMobileMenu()">
