@@ -32,8 +32,8 @@
             ],
         ],
         [
-            'title' => 'Palestra sobre Sustentabilidade',
-            'description' => 'Discussão sobre sustentabilidade e práticas ecológicas.',
+            'title' => 'Sustentabilidade',
+            'description' => 'Discussão sobre sustentabilidade e práticas.',
             'images' => [
                 'https://picsum.photos/300?random=16',
                 'https://picsum.photos/300?random=17',
@@ -45,7 +45,7 @@
         $content['title'],
         $content['description'],
         "",
-        "background-image: url('/assets/activities-background.jpg');" 
+        "background-image: url('assets/foto03.jpg');" 
     );
     ?>
 
@@ -56,7 +56,7 @@
                 <div class="activity-card" onclick="toggleDropdown(<?php echo $index; ?>)">
                     <h3><?php echo $activity['title']; ?></h3>
                     <p><?php echo $activity['description']; ?></p>
-                    <div class="activity-images" id="dropdown-<?php echo $index; ?>" style="display: none;">
+                    <div class="activity-images" id="dropdown-<?php echo $index; ?>" style="display: block;">
                         <?php foreach ($activity['images'] as $image): ?>
                         <img src="<?php echo $image; ?>" alt="<?php echo $activity['title']; ?>" />
                         <?php endforeach; ?>
@@ -69,12 +69,12 @@
 
     <?php include 'footer.php'; ?>
 
-    <script>
+    <!--script>
     function toggleDropdown(index) {
         const dropdown = document.getElementById(`dropdown-${index}`);
         dropdown.style.display = dropdown.style.display === "none" ? "block" : "none";
     }
-    </script>
+    </script-->
 </body>
 
 </html>
