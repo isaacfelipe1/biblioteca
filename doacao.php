@@ -17,7 +17,7 @@
         $content['title'], 
         $content['description'],
         "",
-        "background-image: url('/assets/donation_background.jpg');" 
+        "background-image: url('assets/biblioteca.JPG');" 
     );
     ?>
 
