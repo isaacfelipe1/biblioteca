@@ -24,6 +24,7 @@
                 <a href="how_it_started.php" class="menu-item">COMO TUDO COMEÇOU</a>
                 <a href="doacao.php" class="menu-item">DOE AGORA</a>
                 <a href="activities.php" class="menu-item">ATIVIDADES</a>
+                <a href="activities.php" class="menu-item">EMPRÉSTIMOS</a>
             </div>
         </div>
     </nav>

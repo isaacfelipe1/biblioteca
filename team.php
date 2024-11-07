@@ -14,8 +14,8 @@
     ];
 
     $teamDescription = [
-        'heading' => 'Voluntários e bolsistas', 
-        'subheading' => 'Biblioteca comunitária Maria Dolores Chico Xavier',
+        'heading' => 'Nossa equipe',
+        'subheading' => 'Diretoria',
     ];
     $teamMembers = [
         [
@@ -60,10 +60,10 @@
         ],
     ];
     renderHeader(
-        $content['title'], 
+        $content['title'],
         $content['description'],
         "",
-        "background-image: url('/assets/fundo.jpg');" 
+        "background-image: url('assets/foto01.jpg');"
     );
     ?>
 
@@ -75,6 +75,43 @@
             </div>
 
             <div class="team-container">
+                <div class="team-member-card">
+                    <div class="image-container">
+                        <img src="assets/ethel.png" alt="Ethel Silva de Oliveira">
+                    </div>
+                    <div class="text-container">
+                        <h3>Ethel Silva de Oliveira</h3>
+                        <p class="role">Diretora Executiva</p>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <div class="image-container">
+                        <img src="assets/autora1.png" alt="Elisangela Silva de Oliveira">
+                    </div>
+                    <div class="text-container">
+                        <h3>Elisangela Silva de Oliveira</h3>
+                        <p class="role">Diretora Admnitrativa</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="team-intro">
+                <p>Voluntários e bolsistas</p>
+            </div>
+
+            <div class="team-container">
+                <div class="team-member-card">
+                    <div class="image-container">
+                        <img src="assets/katiani.png" alt="Katiani Antunes">
+                    </div>
+                    <div class="text-container">
+                        <h3>Katiani Antunes</h3>
+                        <p class="role">Coordenadora Geral</p>
+                    </div>
+                </div>
+
                 <?php foreach ($teamMembers as $member): ?>
                 <div class="team-member-card">
                     <div class="image-container">
