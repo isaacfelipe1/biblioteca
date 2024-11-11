@@ -55,17 +55,7 @@
             </div>
         </section>
 
-        <section class="details">
-            <h2>Dados para Doação</h2>
-            <p>Se você deseja contribuir com as despesas mensais e atividades da Biblioteca Comunitária Maria Dolores,
-                segue abaixo os dados bancários para transferência:</p>
-            <div class="bank-details">
-                <p><strong>CHAVE PIX CNPJ:</strong> 63.659.213/0001-40</p>
-                <p><strong>Centro Espírita Maria Dolores</strong></p>
-                <p><strong>Banco:</strong> BASA</p>
-            </div>
-            <p class="important-note">Sua contribuição é muito importante!</p>
-        </section>
+
     </main>
 
     <?php include 'footer.php'; ?>

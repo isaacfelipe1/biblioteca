@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/partners.css">
     <link rel="stylesheet" href="css/localizacao.css">
+    <link rel="stylesheet" href="css/noticias.css">
+    <link rel="stylesheet" href="css/emprestimo.css">
+
+
 
 </head>
 
@@ -23,9 +27,9 @@
     <?php
     renderHeader(
         "Biblioteca Comunitária Maria Dolores",
-        "Promover um ponto de cultura.",
+        "Promover um ponto de .",
         "", 
-        "background-image: url('assets/paginaInicial.jpg');" 
+        // "background-image: url('assets/paginaInicial.jpg');" 
     );
     ?>
 
@@ -33,6 +37,7 @@
         <?php include 'sobre.php'; ?>
         <?php include 'partners.php'; ?>
         <?php include 'localizacao.php'; ?>
+        <?php include 'noticias.php'; ?>
 
     </main>
 

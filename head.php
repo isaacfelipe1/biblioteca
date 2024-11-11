@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/activities.css">
     <link rel="stylesheet" href="css/how_it_started.css">
     <link rel="stylesheet" href="css/doacao.css">
+    <link rel="stylesheet" href="css/emprestimo.css">
 
 
 </head>

@@ -1,0 +1,38 @@
+.noticias-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.noticias-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.noticias-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.noticia-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.noticia-item h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.noticia-item .data {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.noticia-item .descricao {
+    font-size: 16px;
+    color: #555;
+}
