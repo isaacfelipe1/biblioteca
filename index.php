@@ -27,7 +27,7 @@
     <?php
     renderHeader(
         "Biblioteca Comunitária Maria Dolores",
-        "Promover um ponto de .",
+        "Promover um ponto de cultura .",
         "", 
         // "background-image: url('assets/paginaInicial.jpg');" 
     );
