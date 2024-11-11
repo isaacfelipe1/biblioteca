@@ -55,21 +55,6 @@
                 <button class="carousel-button next">&#10095;</button>
             </div>
         </section>
-        <section class="book-loan">
-            <h2>Serviço de Empréstimo de Livros Disponível</h2>
-            <p>Venha nos visitar e aproveite para conhecer nosso acervo literário.</p>
-            <p>Empréstimo de livros – segunda à sábado.<br>Horário: 08h às 12h | 14h às 17h</p>
-            <div class="book-images-container">
-                <img src="assets/livros01.jpg" alt="Acervo de livros 1">
-                <img src="assets/livros02.jpg" alt="Acervo de livros 2">
-
-            </div>
-            <div class="loan-banner">
-                <h3>Empréstimo de livro?</h3>
-                <p>Sim, é possível!</p>
-                <p><em>Literatura infantil, juvenil e adulto</em></p>
-            </div>
-        </section>
     </main>
 
     <?php include 'footer.php'; ?>
