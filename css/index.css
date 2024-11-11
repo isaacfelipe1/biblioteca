@@ -13,7 +13,7 @@ body {
     text-align: center;
     color: white;
     position: relative;
-    animation: kenburns-top 2s ease-out both;
+    animation: kenburns-top 5s ease-out both;
 }
 
 @-webkit-keyframes kenburns-top {
