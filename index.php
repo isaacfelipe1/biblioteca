@@ -35,9 +35,10 @@
 
     <main>
         <?php include 'sobre.php'; ?>
+        <?php include 'noticias.php'; ?>
         <?php include 'partners.php'; ?>
         <?php include 'localizacao.php'; ?>
-        <?php include 'noticias.php'; ?>
+
 
     </main>
 
